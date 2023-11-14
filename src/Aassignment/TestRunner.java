@@ -33,7 +33,7 @@ public class TestRunner {
         Logic myLogic = new Logic();
         int expected = 10;
 
-        myLogic.setWordArray("A f r o f r i s y r");
+        myLogic.setWordArray("A, f, r, o, f, r, i, s, y, r");
         int actual = myLogic.countEachChars();
         assertEquals(expected,actual);
     }
