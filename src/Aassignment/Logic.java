@@ -13,12 +13,12 @@ public class Logic {
         words = input.split(" ");
     }
 
-    public int getArrayLength() {
+    public int getArrayLength() { // vi kör en public in som tas inne från main klassen som sedan skickar tillbaka hur många rader vi har sedan.
 
         return words.length;
     }
 
-    public int countEachChars(){
+    public int countEachChars(){ // Vi kör en public int, som sedan går till main klassen som sedan skickar tillbaka till här och informerar hur många chars som har skrivits.
         return words.length;
     }
 

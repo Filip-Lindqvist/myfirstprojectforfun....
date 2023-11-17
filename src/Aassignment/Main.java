@@ -5,11 +5,13 @@ import java.util.Scanner;
 
 public class Main {
     public static void main(String[] args) {
-        Scanner scan = new Scanner(System.in);
-        Logic testKlass = new Logic();
-        Logic testKlassTwo = new Logic();
-        String savedStrings = "";
-        String removeWhiteSpace = "";
+        Scanner scan = new Scanner(System.in); // Standard Scanner
+        Logic testKlass = new Logic(); // Klass 1 som innehåller nedan som tar in användarens input längre ned och skriver ut det till användaren
+        Logic testKlassTwo = new Logic(); // Klass 2 som räknar på vad användaren har skrivit i klass 1 och informerar
+        String savedStrings = ""; //Sparar en String som tom, som vi skriver nedan mer om,
+        // så när vi skriver in våra ord senare i kontroll panelen så blir det korrekt.
+        String removeWhiteSpace = ""; // Sparar en String som tom, som vi skriver nedan om senare utan " ",
+        // så att whitespaces inte räknas som en char.
 
 
 
